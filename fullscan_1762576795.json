@@ -1,0 +1,517 @@
+[
+  {
+    "ip": "192.168.0.1",
+    "mac": "24-2f-d0-10-10-1f",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.1",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.0 200 OK\r\nConnection: close",
+        "rtt_ms": 23.12,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.1",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.1",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.1",
+        "port": 443,
+        "state": "open",
+        "banner": null,
+        "rtt_ms": 23.12,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.1",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.4",
+    "mac": "00-52-37-ee-9c-bb",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.4",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 07 Nov 2025 23:39:44 GMT\r\nContent-Type: text/html\r\nContent-Length: 988\r\nLast-Modified: Fri, 16 Jun 2023 02:25:18 GMT\r\nConnection: close\r\nETag: \"648bc80e-3dc\"\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nAccept-Ranges: bytes",
+        "rtt_ms": 4.18,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.4",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.4",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.4",
+        "port": 443,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.4",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.5",
+    "mac": "00-52-38-ed-a6-9f",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.5",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 07 Nov 2025 23:39:45 GMT\r\nContent-Type: text/html\r\nContent-Length: 988\r\nLast-Modified: Fri, 16 Jun 2023 02:25:18 GMT\r\nConnection: close\r\nETag: \"648bc80e-3dc\"\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nAccept-Ranges: bytes",
+        "rtt_ms": 34.54,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.5",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.5",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.5",
+        "port": 443,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.5",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.79",
+    "mac": "40-ed-00-bb-7d-50",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.79",
+        "port": 443,
+        "state": "open",
+        "banner": "HTTP/1.1 400 \r\nContent-Type: text/plain;charset=UTF-8\r\nConnection: close\r\n\r\nBad Request\r\nThis combination of host and port requires TLS.",
+        "rtt_ms": 31.64,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.79",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 302 \r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nContent-Security-Policy: default-src 'self' https://*.tplinkcloud.com/;script-src 'self' 'unsafe-eval' 'sha256-7W9UiBaYGlOHpT1aQBLegqffUVHbYq6/ZAb+ErjUb40=' 'sha256-VGQ8jNTL2g0e8wPwOgyCQJDqhuRgfV7gRYexcBkBe4Y=' 'sha256-x2jgB1zBLi30IsfY+VNgWjwBGeHPJxOSrzl+IdsT6k0=' 'sha256-0AHZXO4clnpdcxqdmASPBEp4JCIrtaxIX/mUuL1kzZw=' 'sha256-lfXlPY3+MCPOPb4mrw1Y961+745U3WlDQVcOXdchSQc=';style-src 'self' 'unsafe-inline';connect-src 'self' https://*.tplinkcloud.com/ https://*.tplinkcloud.com:8843/ wss://*.tplinkcloud.com/ https://*.tiles.mapbox.com https://api.mapbox.com https://events.mapbox.com ;frame-src 'self' data:;img-src 'self' https://*.tplinkcloud.com/ https://*.mzstatic.com/ https://play-lh.googleusercontent.com/ data: blob:;child-src blob: ;worker-src blob: ;media-src 'self' https://*.tplinkcloud.com/  data: blob:;object-src 'self' data: blob:\r\nStrict-Transport-Security: max-age=0; includeSubDomains\r\nReferrer-Policy: strict-origin-when-cross",
+        "rtt_ms": 31.64,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.79",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.79",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.79",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.102",
+    "mac": "a8-42-a1-fd-99-aa",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.102",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 405 Method Not Allowed\r\nServer: TP-LINK HTTPD/1.0\r\nX-Frame-Options: SAMEORIGIN\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 124\r\nConnection: close\r\nSet-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly\r\n\r\n<html><head><title>405 Method Not Allowed</title></head><body><center><h1>405 Method Not Allowed</h1></center></body></html>",
+        "rtt_ms": 19.99,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.102",
+        "port": 443,
+        "state": "open",
+        "banner": null,
+        "rtt_ms": 19.99,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.102",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.102",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.102",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.103",
+    "mac": "00-52-37-d8-9f-f9",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.103",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 07 Nov 2025 23:39:51 GMT\r\nContent-Type: text/html\r\nContent-Length: 988\r\nLast-Modified: Fri, 16 Jun 2023 02:25:18 GMT\r\nConnection: close\r\nETag: \"648bc80e-3dc\"\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nAccept-Ranges: bytes",
+        "rtt_ms": 24.17,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.103",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.103",
+        "port": 443,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.103",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.103",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.104",
+    "mac": "a8-42-a1-fd-98-c2",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.104",
+        "port": 443,
+        "state": "open",
+        "banner": null,
+        "rtt_ms": 4.32,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.104",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 405 Method Not Allowed\r\nServer: TP-LINK HTTPD/1.0\r\nX-Frame-Options: SAMEORIGIN\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 124\r\nConnection: close\r\nSet-Cookie: JSESSIONID=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; HttpOnly\r\n\r\n<html><head><title>405 Method Not Allowed</title></head><body><center><h1>405 Method Not Allowed</h1></center></body></html>",
+        "rtt_ms": 8.32,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.104",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.104",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.104",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.112",
+    "mac": "00-52-34-82-f3-7d",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.112",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 07 Nov 2025 23:39:56 GMT\r\nContent-Type: text/html\r\nContent-Length: 988\r\nLast-Modified: Fri, 16 Jun 2023 02:25:18 GMT\r\nConnection: close\r\nETag: \"648bc80e-3dc\"\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nAccept-Ranges: bytes",
+        "rtt_ms": 28.21,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.112",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.112",
+        "port": 443,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.112",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.112",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.120",
+    "mac": "00-65-c6-02-77-dd",
+    "hostname": null,
+    "os": {
+      "ttl": 64,
+      "os_guess": "Linux/Unix (estimation)"
+    },
+    "services": [
+      {
+        "ip": "192.168.0.120",
+        "port": 443,
+        "state": "open",
+        "banner": null,
+        "rtt_ms": 9.08,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.120",
+        "port": 80,
+        "state": "open",
+        "banner": "HTTP/1.0 200 Ok\r\nServer: mini_httpd/1.19 19dec2003\r\nDate: Sat, 08 Nov 2025 04:39:58 GMT\r\nCache-Control: no-cache\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 5312\r\nLast-Modified: Wed, 03 Jul 2024 06:09:39 GMT\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccess-Control-Expose-Headers: *\r\nConnection: close",
+        "rtt_ms": 25.16,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.120",
+        "port": 3306,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.120",
+        "port": 3389,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      },
+      {
+        "ip": "192.168.0.120",
+        "port": 22,
+        "state": "filtered",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null
+      }
+    ]
+  },
+  {
+    "ip": "192.168.0.255",
+    "mac": "ff-ff-ff-ff-ff-ff",
+    "hostname": null,
+    "os": {
+      "ttl": null,
+      "os_guess": null
+    },
+    "services": [
+      {
+        "ip": "192.168.0.255",
+        "port": 22,
+        "state": "error",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null,
+        "error": "[WinError 10049] L’adresse demandée n’est pas valide dans son contexte"
+      },
+      {
+        "ip": "192.168.0.255",
+        "port": 80,
+        "state": "error",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null,
+        "error": "[WinError 10049] L’adresse demandée n’est pas valide dans son contexte"
+      },
+      {
+        "ip": "192.168.0.255",
+        "port": 443,
+        "state": "error",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null,
+        "error": "[WinError 10049] L’adresse demandée n’est pas valide dans son contexte"
+      },
+      {
+        "ip": "192.168.0.255",
+        "port": 3389,
+        "state": "error",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null,
+        "error": "[WinError 10049] L’adresse demandée n’est pas valide dans son contexte"
+      },
+      {
+        "ip": "192.168.0.255",
+        "port": 3306,
+        "state": "error",
+        "banner": null,
+        "rtt_ms": null,
+        "vulns": null,
+        "error": "[WinError 10049] L’adresse demandée n’est pas valide dans son contexte"
+      }
+    ]
+  }
+]
