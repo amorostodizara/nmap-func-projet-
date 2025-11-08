@@ -1,0 +1,8 @@
+installer : 
+scapy
+psutil
+tabulate
+
+python cli_scan_main.py discover
+python cli_scan_main.py scan --target 192.168.0.0/24 --ports 22,80,443 --out json
+python cli_scan_main.py full --ports 22,80,443 --out json ou python cli_scan_main.py full --out json

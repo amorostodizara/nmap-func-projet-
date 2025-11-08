@@ -1,0 +1,5 @@
+{
+  "OpenSSH": { "vulnerable_versions": ["7.2","7.4"], "notes": "Anciennes versions OpenSSH" },
+  "nginx":   { "vulnerable_versions": ["1.14.0","1.18.0"], "notes": "Exemple de version vulnérable" },
+  "Apache":  { "vulnerable_versions": ["2.4.49","2.4.50"], "notes": "Path traversal CVE-..." }
+}
